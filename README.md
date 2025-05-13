@@ -18,3 +18,7 @@
   <li>🌐 HTML5</li>
   <li>🎨 Tailwind CSS</li>
 </ul>
+
+<p><strong>🔗 Live Demo:</strong> 
+  <a href="https://shop-com-gray.vercel.app" target="_blank">shop-com-gray.vercel.app</a>
+</p>
