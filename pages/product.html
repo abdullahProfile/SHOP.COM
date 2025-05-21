@@ -14,7 +14,7 @@
   </div>
 
   <!--Header-->
-  <header class="flex justify-around items-center py-[12px] gap-[40px] max-w-[1440px] mx-auto max-lg:flex-wrap max-md:justify-center max-md:px-5 my-6">
+  <header class="flex justify-between max-w-[1240px]  mx-auto items-center py-[12px] gap-[40px] max-lg:flex-wrap max-md:justify-center max-md:px-5 my-6 border-b-2 border-gray-500">
     <a href="#"><img src="../assets/icons/logo.svg" alt="logo"></a>
 
     <ul class="list-none flex gap-[24px] max-md:flex-wrap max-md:justify-center">
@@ -35,7 +35,93 @@
     </div>
   </header>
 
-  <main></main>
+  <main>
+    <!--Single product -->
+    <section>
+     <div class="max-w-[1240px] mx-auto flex flex-col gap-6 mb-20 max-md:px-5">
+
+       <ul class="list-none flex gap-3 items-center max-xl:justify-center">
+        <li><a href="#" class="flex text-gray-500 items-center gap-2">Home<span><img src="../assets/images/product/productArrow.svg" alt="icon"></span></a></li>
+        <li><a href="#" class="flex items-center text-gray-500 gap-2">Shop <span><img src="../assets/images/product/productArrow.svg" alt="icon"></span></a></li>
+        <li><a href="#" class="flex items-center text-gray-500 gap-2">Men <span><img src="../assets/images/product/productArrow.svg" alt="icon"></span></a></li>
+        <li class="text-gray-500"><a href="#">T-Shirt</a></li>
+      </ul>
+
+      <div class="flex gap-10 max-xl:flex-wrap max-xl:justify-center">
+        <div class="flex gap-3 max-md:flex-wrap max-md:justify-center max-md:flex-col-reverse">
+          <div class="flex flex-col gap-3 max-md:flex-wrap max-md:flex-row">
+            <button class="border-none cursor-pointer"> <img src="../assets/images/product/image.svg" alt="image"></button>
+            <button class="border-none cursor-pointer"><img src="../assets/images/product/image1.svg" alt="image"></button>
+            <button class="border-none cursor-pointer"><img src="../assets/images/product/image2.svg" alt="image"></button>
+          </div>
+
+          <div class="max-w-[444px] overflow-hidden">
+            <img src="../assets/images/product/heroImage.svg" class="w-[100%] h-[100%] object-cover rounded-4xl" alt="image">
+          </div>
+        </div>
+
+        <div class="max-w-[600px] flex-col gap-3">
+
+          <div class="flex flex-col gap-4 border-b-2 border-gray-500 pb-6">
+            <h1 class="text-4xl font-bold uppercase">One Life Graphic T-shirt</h1>
+
+            <div class="flex items-center gap-x-1">
+              <img src="../assets/icons/star.svg" alt="rate">
+              <img src="../assets/icons/star.svg" alt="rate">
+              <img src="../assets/icons/star.svg" alt="rate">
+              <img src="../assets/icons/star.svg" alt="rate">
+              <img src="../assets/icons/star.svg" alt="rate">
+              <p class="text-sm">4.5/5</p>
+            </div>
+
+             <div class="flex items-center gap-3">
+                <h3 class="text-[32px] font-bold">$260</h3>
+                <h3 class="text-[32px]  font-bold text-gray-500 line-through">$300</h3>
+                <span class="text-red-400 rounded-4xl bg-red-100 py-[6px] px-[13px]">-40%</span>
+              </div>
+
+              <p class="text-gray-500">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
+          </div>
+
+          <div class="flex flex-col gap-4 border-b-2 border-gray-500 py-6">
+            <p class="text-gray-600">Select Colors</p>
+
+           <form action="#" class="flex gap-3">
+              <input type="checkbox" checked class="appearance-none w-[50px] h-[50px] rounded-full bg-[#4F4631] border-none cursor-pointer checked:border-[3px] checked:border-black">
+              <input type="checkbox" class="appearance-none w-[50px] h-[50px] rounded-full bg-[#314F4A] cursor-pointer checked:border-[3px] checked:border-black">
+              <input type="checkbox" class="appearance-none w-[50px] h-[50px] rounded-full bg-[#31344F] cursor-pointer checked:border-[3px] checked:border-black">
+            </form>
+          </div>
+
+          <div class="flex flex-col gap-4 border-b-2 border-gray-500 py-6">
+            <p class="text-gray-600">Choose Size</p>
+            <div class="flex items-center gap-3 max-md:flex-wrap max-md:justify-center">
+              <button class="border-none rounded-4xl text-gray-500 py-3 px-6 bg-gray-100 capitalize cursor-pointer">Small</button>
+              <button class="rounded-4xl border-none text-gray-500 py-3 px-6 bg-gray-100 capitalize cursor-pointer">Medium</button>
+              <button class="rounded-4xl bg-black border-none text-white py-3 px-6 capitalize cursor-pointer">large</button>
+              <button class="border-none rounded-4xl text-gray-500 py-3 px-6 bg-gray-100 capitalize cursor-pointer">X-large</button>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-4 border-b-2 border-gray-500 py-6">
+            <p class="text-gray-600">Choose Size</p>
+            <div class="flex items-center gap-3 max-md:flex-wrap max-md:justify-center">
+
+              <div class="flex items-center gap-4 rounded-4xl text-gray-500 py-3 px-6 bg-gray-100 capitalize cursor-pointer">
+                <button class="cursor-pointer font-bold">-</button>
+
+                <span class="font-medium">1</span>
+
+                <button class="cursor-pointer font-bold">+</button>
+              </div>
+              <button class="rounded-4xl bg-black border-none text-white py-3 px-6 capitalize cursor-pointer w-full">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+  </main>
 
   <!--footer -->
   <footer class="bg-gray-100 max-w-[1440px] mx-auto p-30 max-lg:p-15 mt-[80px]">
