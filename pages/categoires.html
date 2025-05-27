@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Categories</title>
+</head>
+<body>
+  <!--announcmet-bar-->
+  <div class="bg-black py-2 max-w-[1440px] mx-auto">
+    <p class="text-sm text-white text-center">Sign up and get 20% off to your first order. <span><a href="#" class="underline decoration-2 font-bold hover:text-sky-700">Sign Up Now</a></span></p>
+  </div>
+
+  <!--Header-->
+  <header class="flex justify-between max-w-[1240px]  mx-auto items-center py-[12px] gap-[40px] max-lg:flex-wrap max-md:justify-center max-md:px-5 my-6 border-b-2 border-gray-500">
+    <a href="#"><img src="../assets/icons/logo.svg" alt="logo"></a>
+
+    <ul class="list-none flex gap-[24px] max-md:flex-wrap max-md:justify-center">
+      <li><a href="#">shop</a></li>
+      <li><a href="#">on sale</a></li>
+      <li><a href="#">New Arrivals</a></li>
+      <li><a href="#">Brands</a></li>
+    </ul>
+
+    <form class="max-w-xl relative h-10">
+      <input type="search" class="rounded-3xl py-2 px-12 bg-gray-100 text-gray-500 w-full" placeholder="Search for products...">
+      <button class="cursor-pointer"><img src="../assets/icons/search.svg" alt="search" class="absolute left-2 top-2"></button>
+    </form>
+
+    <div class="flex items-center gap-[24px]">
+      <button><img src="../assets/icons/cart.svg" class="cursor-pointer" alt="product collection"></button>
+      <button><img src="../assets/icons/login.svg" class="cursor-pointer" alt="login here"></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- categories -->
+    <section>
+      <div class="max-w-[1240px] mx-auto flex flex-col gap-5">
+        <ul class="list-none flex gap-3 items-center max-xl:justify-center">
+          <li><a href="#" class="flex text-gray-500 items-center gap-2">Home<span><img src="../assets/images/product/productArrow.svg" alt="icon"></span></a></li>
+          <li class="text-gray-500"><a href="#">Casual</a></li>
+        </ul>
+
+        <di class="flex items-center gap-3">
+          <div class="w-[295px] flex flex-col gap-3 bg-black/3 py-5 px-6 rounded-3xl">
+            <div class="flex justify-between items-center gap-2">
+              <h5 class="text-xl font-bold capitalize">filter</h5>
+
+              <button><img src="../assets/icons/filter.svg" alt="filter"></button>
+            </div>
+
+            <div class="flex flex-col gap-3 py-4 border-y border-gray-400">
+              <button class="flex justify-between items-center no-underline text-gray-500 bg-none border-none cursor-pointer">T-Shirt <span><img src="../assets/images/product/productArrow.svg" alt="image"></span> </button>
+              <button class="flex justify-between items-center no-underline text-gray-500 bg-none border-none cursor-pointer">Shorts <span><img src="../assets/images/product/productArrow.svg" alt="image"></span></button>
+              <button class="flex justify-between items-center no-underline text-gray-500 bg-none border-none cursor-pointer">Shirts <span><img src="../assets/images/product/productArrow.svg" alt="image"></span></button>
+              <button class="flex justify-between items-center no-underline text-gray-500 bg-none border-none cursor-pointer">Hoodie <span><img src="../assets/images/product/productArrow.svg" alt="image"></span></button>
+              <button class="flex justify-between items-center no-underline text-gray-500 bg-none border-none cursor-pointer">Jeans <span><img src="../assets/images/product/productArrow.svg" alt="image"></span></button>
+            </div>
+
+          <div class="flex flex-col gap-4 border-b-2 border-gray-500 py-6">
+            <p class="text-gray-600">Select Colors</p>
+
+           <form action="#" class="flex gap-3 flex-wrap">
+              <input type="checkbox" class="appearance-none w-[37px] h-[37px] rounded-full bg-[#00C12B] border-none cursor-pointer checked:border-[3px] checked:border-black">
+              <input type="checkbox" class="appearance-none w-[37px] h-[37px] rounded-full bg-[#F50606] cursor-pointer checked:border-[3px] checked:border-black">
+              <input type="checkbox" class="appearance-none w-[37px] h-[37px] rounded-full bg-[#F5DD06] cursor-pointer checked:border-[3px] checked:border-black">
+
+              <input type="checkbox" class="appearance-none w-[37px] h-[37px] rounded-full bg-[#F57906] border-none cursor-pointer checked:border-[3px] checked:border-black">
+              <input type="checkbox" class="appearance-none w-[37px] h-[37px] rounded-full bg-[#06CAF5] cursor-pointer checked:border-[3px] checked:border-black">
+              <input type="checkbox" class="appearance-none w-[37px] h-[37px] rounded-full bg-[#063AF5] cursor-pointer checked:border-[3px] checked:border-black">
+
+              <input type="checkbox" checked class="appearance-none w-[37px] h-[37px] rounded-full bg-[#7D06F5] border-none cursor-pointer checked:border-[3px] checked:border-black">
+              <input type="checkbox" class="appearance-none w-[37px] h-[37px] rounded-full bg-[#F506A4] cursor-pointer checked:border-[3px] checked:border-black">
+              <input type="checkbox" class="appearance-none w-[37px] h-[37px] rounded-full bg-[#FFF] cursor-pointer checked:border-[3px] checked:border-black">
+
+              <input type="checkbox" class="appearance-none w-[37px] h-[37px] rounded-full bg-black cursor-pointer checked:border-[3px] checked:border-black">
+            </form>
+          </div>
+          </div>
+        </di>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
